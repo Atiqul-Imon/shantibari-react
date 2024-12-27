@@ -4,12 +4,16 @@ const AboutUs = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[400px]" style={{ backgroundImage: 'url(https://via.placeholder.com/1500)' }}>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative z-10 flex justify-center items-center h-full">
-          <h1 className="text-4xl md:text-6xl text-white font-bold">About Us</h1>
-        </div>
-      </section>
+      <section
+  className="relative bg-cover bg-center h-[400px]"
+  style={{ backgroundImage: `url('https://res.cloudinary.com/db5yniogx/image/upload/v1735340419/aboutuscloudinary_si2umb.jpg')` }}
+>
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+  <div className="relative z-10 flex justify-center items-center h-full">
+    <h1 className="text-4xl md:text-6xl text-white font-bold">About Us</h1>
+  </div>
+</section>
+
 
       {/* Logo and Text Section */}
       <section className="py-12 px-6 md:px-20">
@@ -17,7 +21,7 @@ const AboutUs = () => {
           {/* Logo */}
           <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
             <img
-              src="https://via.placeholder.com/150"
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
               alt="Shantibari Logo"
               className="w-32 h-32 object-contain"
             />
@@ -77,7 +81,7 @@ const AboutUs = () => {
           {/* Image */}
           <div className="w-full md:w-1/3 flex justify-center">
             <img
-              src="https://via.placeholder.com/500"
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1735340583/aboutusimagecloud_mftqip.jpg"
               alt="Impact Image"
               className="w-full h-auto rounded-lg shadow-lg"
             />

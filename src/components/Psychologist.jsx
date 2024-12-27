@@ -3,26 +3,26 @@ import React from 'react';
 function PsychiatristPsychologist() {
   const psychiatrists = [
     {
-      name: 'Dr. John Doe',
-      title: 'Senior Psychiatrist',
+      name: 'Dr. Helal Uddin Ahmed',
+      title: 'Senior Psychiatrist and Consultant',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317397/drhelalcloud_fvdddg.jpg'
     },
     {
-      name: 'Dr. Jane Smith',
-      title: 'Psychiatrist',
+      name: 'Dr. Nasim Jahan',
+      title: 'Senior Psychiatrist and Consultant',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317673/Nasimjahancloud_jl62lq.png'
     }
   ];
 
   const psychologists = [
     {
-      name: 'Dr. Emily Stone',
-      title: 'Senior Psychologist',
+      name: 'Razia Sultana Rima',
+      title: 'Psycho-social Counselor and Therapist',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317558/Raziasultanarimacloud_vqmaug.png'
     },
     {
-      name: 'Dr. Mark Davis',
-      title: 'Psychologist',
+      name: 'Arpita Das',
+      title: 'Psycho-social Counselor and Therapist',
       imgSrc: 'https://res.cloudinary.com/db5yniogx/image/upload/v1735317781/Arpitadascloud_gdnt8q.png'
     }
   ];
