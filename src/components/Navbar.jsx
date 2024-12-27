@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom"; // Import NavLink
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,10 +10,10 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-base font-bold">
-            <img 
-              src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png" 
-              alt="Shantibari Logo" 
-              className="w-16 h-auto"  // Adjusted logo size
+            <img
+              src="https://res.cloudinary.com/db5yniogx/image/upload/v1735327489/shantibarilogocloud_a8h82d.png"
+              alt="Shantibari Logo"
+              className="w-16 h-auto" // Adjusted logo size
             />
           </div>
 
@@ -20,7 +21,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white focus:outline-none"
+              className="text-black focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
@@ -41,15 +42,33 @@ const Navbar = () => {
 
           {/* Navbar Links */}
           <div className="hidden lg:flex space-x-6 font-roboto text-sm">
-            <a href="#home" className="hover:text-gray-400">Home</a>
-            <a href="#about" className="hover:text-gray-400">About Us</a>
-            <a href="#services" className="hover:text-gray-400">Services</a>
-            <a href="#events" className="hover:text-gray-400">Events</a>
-            <a href="#gallery" className="hover:text-gray-400">Gallery Frida Kahlo</a>
-            <a href="#contact" className="hover:text-gray-400">Contact Us</a>
-            <a href="#audio-visual" className="hover:text-gray-400">Audio Visual</a>
-            <a href="#media-coverage" className="hover:text-gray-400">Media Coverage</a>
-            <a href="#brochure" className="hover:text-gray-400">Download Brochure</a>
+            <NavLink to="/" className="hover:text-gray-400">
+              Home
+            </NavLink>
+            <NavLink to="/about" className="hover:text-gray-400">
+              About Us
+            </NavLink>
+            <NavLink to="/services" className="hover:text-gray-400">
+              Services
+            </NavLink>
+            <NavLink to="/events" className="hover:text-gray-400">
+              Events
+            </NavLink>
+            <NavLink to="/gallery" className="hover:text-gray-400">
+              Gallery
+            </NavLink>
+            <NavLink to="/contact" className="hover:text-gray-400">
+              Contact Us
+            </NavLink>
+            <NavLink to="/audio-visual" className="hover:text-gray-400">
+              Audio Visual
+            </NavLink>
+            <NavLink to="/media-coverage" className="hover:text-gray-400">
+              Media Coverage
+            </NavLink>
+            <NavLink to="/brochure" className="hover:text-gray-400">
+              Download Brochure
+            </NavLink>
           </div>
 
           {/* Call Us Button */}
@@ -67,15 +86,33 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="lg:hidden px-4 py-2 space-y-4 bg-white">
-          <a href="#home" className="block text-white text-sm">Home</a>
-          <a href="#about" className="block text-white text-sm">About Us</a>
-          <a href="#services" className="block text-white text-sm">Services</a>
-          <a href="#events" className="block text-white text-sm">Events</a>
-          <a href="#gallery" className="block text-white text-sm">Gallery Frida Kahlo</a>
-          <a href="#contact" className="block text-white text-sm">Contact Us</a>
-          <a href="#audio-visual" className="block text-white text-sm">Audio Visual</a>
-          <a href="#media-coverage" className="block text-white text-sm">Media Coverage</a>
-          <a href="#brochure" className="block text-white text-sm">Download Brochure</a>
+          <NavLink to="/" className="block text-black text-sm">
+            Home
+          </NavLink>
+          <NavLink to="/about" className="block text-black text-sm">
+            About Us
+          </NavLink>
+          <NavLink to="/services" className="block text-black text-sm">
+            Services
+          </NavLink>
+          <NavLink to="/events" className="block text-black text-sm">
+            Events
+          </NavLink>
+          <NavLink to="/gallery" className="block text-black text-sm">
+            Gallery
+          </NavLink>
+          <NavLink to="/contact" className="block text-black text-sm">
+            Contact Us
+          </NavLink>
+          <NavLink to="/audio-visual" className="block text-black text-sm">
+            Audio Visual
+          </NavLink>
+          <NavLink to="/media-coverage" className="block text-black text-sm">
+            Media Coverage
+          </NavLink>
+          <NavLink to="/brochure" className="block text-black text-sm">
+            Download Brochure
+          </NavLink>
           <div className="mt-4">
             <a
               href="tel:+1234567890"
