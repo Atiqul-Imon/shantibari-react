@@ -9,6 +9,8 @@ import OurTeam from "./components/OurTeam";
 import CharityMorganCafe from "./components/CharityMorganCafe";
 import PhotoGallery from "./components/PhotoGallery";
 import Navbar from "./components/Navbar";
+import AboutUs from "./components/AboutUs";
+import Event from "./components/Event";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <OurTeam/>
       <CharityMorganCafe/>
       <PhotoGallery/>
+      <AboutUs/>
+      <Event/>
     </>
   );
 }
