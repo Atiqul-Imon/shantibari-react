@@ -54,9 +54,9 @@ const Navbar = () => {
             <NavLink to="/events" className="hover:text-gray-400">
               Events
             </NavLink>
-            <NavLink to="/gallery" className="hover:text-gray-400">
-              Gallery
-            </NavLink>
+            <NavLink to="/gallery-frida-kahlo" className="hover:text-gray-400">
+              Gallery Frida Kahlo
+            </NavLink> {/* Updated to Gallery Frida Kahlo */}
             <NavLink to="/contact" className="hover:text-gray-400">
               Contact Us
             </NavLink>
@@ -98,9 +98,9 @@ const Navbar = () => {
           <NavLink to="/events" className="block text-black text-sm">
             Events
           </NavLink>
-          <NavLink to="/gallery" className="block text-black text-sm">
-            Gallery
-          </NavLink>
+          <NavLink to="/gallery-frida-kahlo" className="block text-black text-sm">
+            Gallery Frida Kahlo
+          </NavLink> {/* Updated to Gallery Frida Kahlo */}
           <NavLink to="/contact" className="block text-black text-sm">
             Contact Us
           </NavLink>

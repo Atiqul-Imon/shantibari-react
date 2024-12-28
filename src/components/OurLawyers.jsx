@@ -2,7 +2,7 @@ import React from 'react'
 
 function LawyerCard({ name, description, imgSrc }) {
   return (
-    <div className='w-60 p-4 bg-white rounded-xl flex flex-col items-center'>
+    <div className='w-60 p-4 bg-white rounded-xl flex flex-col items-center shadow-md hover:shadow-lg transition-shadow duration-300'>
       <img 
         className='h-36 w-36 object-cover rounded-lg border-gray-300' 
         src={imgSrc}

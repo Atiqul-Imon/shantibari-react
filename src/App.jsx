@@ -12,7 +12,11 @@ import CharityMorganCafe from "./components/CharityMorganCafe";
 import PhotoGallery from "./components/PhotoGallery";
 import AboutUs from "./components/AboutUs";
 import Event from "./components/Event";
+import Footer from "./components/Footer";
+import MediaCoverage from "./components/MediaCoverage"; // Import MediaCoverage
+import FridaKahloGallery from "./components/FridaKahloGallery"; // Import the new Gallery component
 
+// Define HomePage Layout
 function HomePage() {
   return (
     <>
@@ -29,23 +33,28 @@ function HomePage() {
   );
 }
 
+// App Component
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        {/* Keep homepage layout */}
+        {/* Homepage route */}
         <Route path="/" element={<HomePage />} />
-        {/* Define separate routes for other pages */}
+        
+        {/* Other page routes */}
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<OurServices />} />
         <Route path="/events" element={<Event />} />
-        <Route path="/gallery" element={<PhotoGallery />} />
         <Route path="/contact" element={<OurTeam />} />
         <Route path="/audio-visual" element={<OurLawyers />} />
-        <Route path="/media-coverage" element={<CharityMorganCafe />} />
         <Route path="/brochure" element={<PsychiatristPsychologist />} />
+        <Route path="/media-coverage" element={<MediaCoverage />} /> {/* Added MediaCoverage Route */}
+        
+        {/* Frida Kahlo Gallery Route */}
+        <Route path="/gallery-frida-kahlo" element={<FridaKahloGallery />} /> {/* Added FridaKahloGallery Route */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

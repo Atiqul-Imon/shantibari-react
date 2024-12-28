@@ -2,7 +2,7 @@ import React from 'react'
 
 function FounderCard({ name, title, imgSrc }) {
   return (
-    <div className='w-40 p-3 bg-white rounded-xl flex flex-col items-center'>
+    <div className='w-40 p-3 bg-white rounded-xl flex flex-col items-center shadow-md hover:shadow-lg transition-shadow duration-300'>
       <img 
         className='h-32 w-32 object-cover rounded-full border-gray-300' 
         src={imgSrc}

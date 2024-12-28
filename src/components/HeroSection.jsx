@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="relative w-full h-[250px]">
+    <div className="relative w-full h-[350px]">
       {/* Background Image */}
       <img
         src="https://res.cloudinary.com/db5yniogx/image/upload/v1735320654/heroimageofshantibaricloud_yevptg.jpg"
