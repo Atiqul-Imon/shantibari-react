@@ -15,6 +15,7 @@ import Event from "./components/Event";
 import Footer from "./components/Footer";
 import MediaCoverage from "./components/MediaCoverage"; // Import MediaCoverage
 import FridaKahloGallery from "./components/FridaKahloGallery"; // Import the new Gallery component
+import EventDetails from "./components/Eventdetails";
 
 // Define HomePage Layout
 function HomePage() {
@@ -26,6 +27,7 @@ function HomePage() {
       <OurLawyers />
       <PsychiatristPsychologist />
       <OurServices />
+      <EventDetails/>
       <OurTeam />
       <CharityMorganCafe />
       <PhotoGallery />

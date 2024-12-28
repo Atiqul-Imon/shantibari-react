@@ -33,7 +33,7 @@ function FridaKahloGallery() {
       artist: "Artist: Lubna Habib",
       price: "Price: 25000 (BDT)",
       size: "Size: 2’/2’",
-      medium: "Acrylic on Canvas"
+      medium: "Medium: Acrylic on Canvas"
     },
     {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735386229/bHVibmFfa3VzanVx/drilldown",
@@ -74,17 +74,17 @@ function FridaKahloGallery() {
     {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735386873/UG9ldHJ5LW9mLXRoZS1Gb3Jlc3QtMl9Nb25pZGlwYS1EYXNndXB0YS03NzV4MTAyNF9ib3U1bjg=/drilldown",
       title: `Poetry of the Forest 2`,
-      artist: "Monidipa Das gupta",
+      artist: "Artist: Monidipa Das gupta",
       price: "Price: 25000 (BDT)",
       size: "Size: 28 x 36 cm",
-      medium: "Acrylic and Pen on Paper"
+      medium: "Medium: Acrylic and Pen on Paper"
     },
 
     {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735387060/Q29sb3Itb2YtTmF0dXJlX01haGphYmluLU1vaXRyeS03Njh4NjUwX2pncGRxcg==/drilldown",
       title: "Colour of Nature",
       artist: "Artist: Mahjabin Rahim Moitri",
-      price: "Price: 25000 (BDT)",
+      price: "Price: 20000 (BDT)",
       size: "Size: 36”/24”",
       medium: "Medium: Mixed Media"
     },
@@ -164,14 +164,14 @@ function FridaKahloGallery() {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735388265/4Kas4Ka_4Kas4Kaw4KeN4KajX05pcGEtR29tZXMtMi03Njh4MTE3MF9heTZocXA=/drilldown",
       title: "বিবর্ণ",
       artist: "Artist: Nipa Gomes",
-      price: "Price: 75000 (BDT)",
-      size: "Size: 3’/3’7”",
-      medium: "Medium: Oil Painting"
+      price: "Price: 30000 (BDT)",
+      size: "Size: 2’/3’",
+      medium: "Medium: Acrylic on Wood Panel"
     },
     {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735388397/4Kat4KeH4Kas4KeH4Kab4Ka_4Kay4KeH4KauLeCmq-Cmv-CmsOCmrC3gpqjgpr4t4Kaw4KeHX0FuamFuYS1TaG9tZS0xLTc3MXgxMDI0X3p2d3A1Zw==/drilldown",
       title: "ভেবেছিলেম ফিরব না রে",
-      artist: "Anjana Shome",
+      artist: "Artist: Anjana Shome",
       price: "Price: 15000 (BDT)",
       size: "Size: 15”/20”",
       medium: "Medium: Mixed Media"
@@ -187,7 +187,7 @@ function FridaKahloGallery() {
     {
       image: "https://res-console.cloudinary.com/db5yniogx/thumbnails/v1/image/upload/v1735388626/U3RpbGwtTGlmZS0xX0ZhaG1pZGEtSmFzbWluZS1DYW1lbGxpYS03Njh4Njc2X3hwY3Fueg==/drilldown",
       title: "Still Life – 1",
-      artist: "Fahmida Jasmine Camellia",
+      artist: "Artist: Fahmida Jasmine Camellia",
       price: "Not for Sale",
       size: "Size: 12×10",
       medium: "Medium: Oil Painting"
